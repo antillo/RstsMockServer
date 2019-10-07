@@ -1,0 +1,15 @@
+{
+  "name": "rstsmockserver",
+  "version": "1.0.0",
+  "description": "RSTS Mock Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Sanchez",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
