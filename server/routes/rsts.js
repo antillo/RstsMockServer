@@ -4,7 +4,7 @@ const express = require('express');
 
 const app = express();
 
-app.post('/rsts', function(req,res){
+app.post('/api/rsts', function(req,res){
     let body = req.body;
    
     res.json({
