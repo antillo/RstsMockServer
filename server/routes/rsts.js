@@ -6,9 +6,9 @@ const app = express();
 
 app.post('/api/rsts', function(req,res){
     let body = req.body;
-   
+ 
     res.json({
-        body: `holi ${Math.random()}`
+        body: ` ${JSON.stringify(req.headers)}`
     });
 });
 
