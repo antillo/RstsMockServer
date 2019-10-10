@@ -8,7 +8,7 @@ app.post('/api/rsts', function(req,res){
     let body = req.body;
    
     res.json({
-        body
+        body: `holi ${Math.random()}`
     });
 });
 
